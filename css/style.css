@@ -142,6 +142,9 @@ nav img{
 ion-icon{
     display: none;
 }
+nav .fa{
+    display: none;
+}
 
 /* section 1 */
 
