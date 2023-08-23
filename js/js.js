@@ -20,8 +20,7 @@ function toggleInfo() {
       infoDiv.style.display = "none";
     }
   }
-function carosell(){
-  // carosell home page 
+//   // carosell home page 
 const carouselSlide = document.querySelector(".carousel-slide");
 const carouselItems = document.querySelectorAll(".carousel-item");
 const itemWidth = carouselItems[0].clientWidth;
@@ -50,4 +49,3 @@ carouselSlide.style.transform = `translateX(${-itemWidth * counter}px)`;
 
 setInterval(nextSlide, 3000); // Alterna os slides automaticamente a cada 3 segundos
 
-}

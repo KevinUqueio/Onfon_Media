@@ -26,8 +26,7 @@
         background: var(--red-color);
         height: 100vh;
         width: 200px;
-        top: 0; 
-        right: 400px;
+        top: 0; right: -200px;
         text-align: left;
         z-index: 2;
         transition: 1s;
@@ -40,14 +39,6 @@
         margin: 20px;
         font-size: 45px;
 
-    }
-    nav .fa{
-        display: block;
-        color: var(--bg-color);
-        font-size: 22px;
-        cursor: pointer;
-        margin: 20px;
-        font-size: 45px; 
     }
     .nav-links ul{
         padding: 30px;
@@ -67,7 +58,7 @@
     .nav-links ul li{
         display: block;
     }
-    /* .nav-links{
+    .nav-links{
         position: absolute;
         background: var(--red-color);
         height: 100vh;
@@ -76,16 +67,8 @@
         text-align: left;
         z-index: 2;
         transition: 1s;
-    } */
-    nav .fa{
-        display: block;
-        color: var(--bg-color);
-        font-size: 22px;
-        cursor: pointer;
-        margin: 20px;
-        font-size: 45px; 
     }
-    /* nav ion-icon{
+    nav ion-icon{
         display: block;
         color: var(--bg-color);
         font-size: 22px;
@@ -93,7 +76,7 @@
         margin: 20px;
         font-size: 45px;
 
-    } */
+    }
     .nav-links ul{
         padding: 30px;
 
@@ -114,7 +97,7 @@
     .nav-links ul li{
         display: block;
     }
-    /* .nav-links{
+    .nav-links{
         position: absolute;
         background: var(--black-color);
         height: 100vh;
@@ -123,8 +106,8 @@
         text-align: left;
         z-index: 2;
         transition: 1s;
-    } */
-    /* nav ion-icon{
+    }
+    nav ion-icon{
         display: block;
         color: var(--bg-color);
         font-size: 22px;
@@ -132,13 +115,6 @@
         margin: 20px;
         font-size: 45px;
 
-    } */nav .fa{
-        display: block;
-        color: var(--bg-color);
-        font-size: 22px;
-        cursor: pointer;
-        margin: 20px;
-        font-size: 45px; 
     }
     .nav-links ul{
         padding: 30px;
@@ -164,7 +140,7 @@
         z-index: 2;
         transition: 1s;
     }
-    /* nav ion-icon{
+    nav ion-icon{
         display: block;
         color: var(--bg-color);
         font-size: 22px;
@@ -172,18 +148,10 @@
         margin: 20px;
         font-size: 45px;
 
-    } */
-    nav .fa{
-        display: block;
-        color: var(--bg-color);
-        font-size: 22px;
-        cursor: pointer;
-        margin: 20px;
-        font-size: 45px; 
     }
     .nav-links ul{
         padding: 15px;
-                                                                                                                                                                                                                                                                                            
+
     }
 
 } 

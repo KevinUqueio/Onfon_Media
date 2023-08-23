@@ -33,7 +33,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(../Images/cop_vas.jfif);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("../Images/contact-img.jpg");
     background-position:center ;
     background-size: cover;
     position: relative;
@@ -116,6 +116,7 @@ nav img{
 .text-box h1{
     font-size: 60px;
     font-style: italic;
+    font-weight: 300;
 }
 .text-box p{
     margin: 10px 0 40px;
@@ -140,9 +141,6 @@ nav img{
     transition: 1s;
 }
 ion-icon{
-    display: none;
-}
-nav .fa{
     display: none;
 }
 
